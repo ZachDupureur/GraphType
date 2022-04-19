@@ -1,0 +1,11 @@
+# ninja log v5
+607	701	1650384444153961198	untitled1	ea9a00bac93ee37f
+0	17	1650386652883432683	CMakeFiles/DFS.dir/implementation.cpp.o	3e88e313852be4b2
+1	18	1650386688299108797	CMakeFiles/untitled1.dir/implementation.cpp.o	bc1420bef23aca84
+0	20	1650386668733081453	CMakeFiles/main.cpp.dir/implementation.cpp.o	2f1b55f4edaec411
+0	638	1650386754220211153	CMakeFiles/DFS.dir/main.cpp.o	d68f59229841eb61
+1	646	1650386754224209453	CMakeFiles/DFS.dir/implementation.cpp.o	3e88e313852be4b2
+646	728	1650386754308173743	DFS	d706b30088bffa6c
+1	688	1650398566393397999	CMakeFiles/DFS.dir/main.cpp.o	d68f59229841eb61
+1	731	1650398566437383792	CMakeFiles/DFS.dir/implementation.cpp.o	3e88e313852be4b2
+731	818	1650398566521356670	DFS	d706b30088bffa6c
