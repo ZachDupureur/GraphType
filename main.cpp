@@ -3,4 +3,7 @@
 ///
 #include "header.h"
 int main() {
+    graph myGraph;
+    std::string x;
+    myGraph.makeGraph(&x);
 }
