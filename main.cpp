@@ -5,5 +5,5 @@
 int main() {
     graph myGraph;
     std::string x;
-    myGraph.makeGraph(&x);
+    myGraph.makeGraph();
 }
