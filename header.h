@@ -14,17 +14,15 @@
 
 class graph {
 public:
-    std::vector<int> edges;
-    std::vector<int> vertices;
-    int root = 0;
+    std::vector<std::vector<int>> vertices;
+    std::vector<std::string> names;
+    std::vector<bool> visited;
+    std::vector<int> queue;
 
-    static void makeGraph(); // Ask for path and then make a graph from adjacency list
+    void makeGraph(); // Ask for path and then make a graph from adjacency list
     void clearGraph(); // Clear the graph
     void printGraph(); // Print the graph
-    static void addEdge(std::vector<int> myVec[], int i, int j);
-    void dfTraversal(); // Depth first traversal of graph
-    void bfTraversal(); // Breadth first traversal of graph
-    std::vector<int> deleteNode(int root);
+    void bfTraversal(int root); // Breadth first traversal of graph
 };
 
 void cinClear();
